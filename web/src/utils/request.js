@@ -10,13 +10,13 @@ export default (params) => {
         url,
         method,
         data,
-        // headers: {
-        //     "Authorization": "Bearer " + TOKEN
-        //
-        // }
         headers: {
-            "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzIiwiaWF0IjoxNjI5MzkwNTM1LCJleHAiOjE2Mjk5OTUzMzV9.C5ESfHNg7ZTZqCXA07D1cHj-1Woxe0_FOS7JSlF6sX6vAuD7ZA2S-9VgmkJHlWJ5iIeXNYaJp4EMfVtS0pRYeQ"
+            "Authorization": "Bearer " + TOKEN
 
         }
+        // headers: {
+        //     "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzIiwiaWF0IjoxNjI5MzkwNTM1LCJleHAiOjE2Mjk5OTUzMzV9.C5ESfHNg7ZTZqCXA07D1cHj-1Woxe0_FOS7JSlF6sX6vAuD7ZA2S-9VgmkJHlWJ5iIeXNYaJp4EMfVtS0pRYeQ"
+        //
+        // }
     })
 }
